@@ -20,7 +20,7 @@ VALUES ("Amanda Cardoso", 10 , "5º Ano D", "Português", 8.5),
 ("Giovanna Martins", 13 , "8º Ano A", "Geografia", 6.9),
 ("Helen Noronha", 7 , "2º Ano", "Artes", 5.9);
 
-SELECT * FROM tb_estudantes WHERE nota >= 7.0;
+SELECT * FROM tb_estudantes WHERE nota > 7.0;
 SELECT * FROM tb_estudantes WHERE nota < 7.0;  
 
 UPDATE tb_estudantes SET turma = "8º Ano D" WHERE id = 7; 

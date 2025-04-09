@@ -20,7 +20,7 @@ VALUES ("Jogo","Playstation", "The Last Of Us Part II", 299.90, 50),
 ("Console","Playstation", "Playstation 5", 3500.00 , 25),
 ("Console","Nintendo", "Nintendo Switch 2", 4900.00 , 80);
 
-SELECT * FROM tb_produtos WHERE preco >= 500;
+SELECT * FROM tb_produtos WHERE preco > 500;
 SELECT * FROM tb_produtos WHERE preco < 500;
 
 UPDATE tb_produtos SET preco = 2300.00 WHERE id = 3;
